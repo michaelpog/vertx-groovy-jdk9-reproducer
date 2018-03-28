@@ -2,6 +2,8 @@
 
 
 ```
+JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/  mvn clean install
+
 LA-MPOGREBINSKY-MPB15:vertx-groovy mpogrebinsky$ /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/bin/java -jar target/vertx-groovy-fat.jar
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by io.netty.util.internal.ReflectionUtil (file:/Users/mpogrebinsky/Development/vertx-groovy/target/vertx-groovy-fat.jar) to constructor java.nio.DirectByteBuffer(long,int)
