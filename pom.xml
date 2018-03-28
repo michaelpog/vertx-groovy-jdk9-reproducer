@@ -10,6 +10,7 @@
 
     <properties>
         <vertx.version>3.5.0</vertx.version>
+        <groovy.version>2.4.14</groovy.version>
         <main.verticle>MyGroovyVerticle.groovy</main.verticle>
     </properties>
 
@@ -24,6 +25,11 @@
             <groupId>io.vertx</groupId>
             <artifactId>vertx-lang-groovy</artifactId>
             <version>${vertx.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.codehaus.groovy</groupId>
+            <artifactId>groovy-all</artifactId>
+            <version>${groovy.version}</version>
         </dependency>
     </dependencies>
 
